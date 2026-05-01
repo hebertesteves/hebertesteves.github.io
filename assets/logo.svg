@@ -1,0 +1,24 @@
+<svg width="320" height="60" viewBox="0 0 320 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Ícone </> -->
+  <g stroke="#FF7A00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 15 L10 30 L20 45" />
+    <path d="M40 15 L50 30 L40 45" />
+    <path d="M28 12 L32 48" />
+  </g>
+
+  <!-- Nome -->
+  <text x="70" y="28" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#ECF1F8">
+    Hebert
+  </text>
+
+  <text x="150" y="28" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#FF7A00">
+    Esteves
+  </text>
+
+  <!-- Subtítulo -->
+  <text x="70" y="48" font-family="Inter, sans-serif" font-size="14" fill="#9FB0C7">
+    Engenheiro de Software
+  </text>
+
+</svg>

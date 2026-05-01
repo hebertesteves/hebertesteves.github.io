@@ -1,0 +1,6 @@
+<!-- Email -->
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="42" height="42" rx="14" fill="#0E141C" stroke="#223043"/>
+  <path d="M13 16.5H31C32.1 16.5 33 17.4 33 18.5V27.5C33 28.6 32.1 29.5 31 29.5H13C11.9 29.5 11 28.6 11 27.5V18.5C11 17.4 11.9 16.5 13 16.5Z" stroke="#ECF1F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 18L22 24.5L32 18" stroke="#ECF1F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
