@@ -187,3 +187,48 @@ body {
   border-color: var(--accent);
   transition: 0.25s;
 }
+
+.titulo {
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0 0 24px;
+    font-weight: bold;
+}
+
+.paragrafo {
+    color: var(--text-secondary);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.content-tecnologias {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 90px 40px 0;
+    min-height: 100vh;
+}
+
+.card-tecnologias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card-tecnologias .card {
+    display: flex;
+    gap: 16px;
+    background-color: var(--bg-secondary);
+    min-height: 70px;
+    padding: 22px;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.card-tecnologias .card img {
+    width: 50px;
+}
