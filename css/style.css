@@ -23,6 +23,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 90px 40px 0;
+    min-height: calc(100vh - 76px);
 }
 
 .content-menu {
@@ -140,4 +141,49 @@ body {
 
 .home h1 span {
   color: var(--accent);
+}
+
+.content-about {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 90px 40px 0;
+    min-height: 100vh;
+}
+
+.about {
+    flex: 1;
+}
+
+.card-about {
+    flex: 1;
+}
+
+.about h2 {
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0 0 24px;
+}
+
+.about h2 span {
+    color: var(--accent);
+}
+
+.about p {
+    color: var(--text-secondary);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.card-about .card {
+    margin-bottom: 18px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  transition: 0.25s;
 }
