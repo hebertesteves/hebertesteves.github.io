@@ -16,13 +16,22 @@ body {
    font-family: 'Inter', sans-serif; 
    background-color: var(--bg-primary);
    color: var(--text-primary);
-   margin: 1rem 2rem;
+   margin: 0;
+}
+
+.content-home {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 90px 40px 0;
 }
 
 .content-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 76px;
+    padding: 0 48px;
+    border-bottom: 1px solid var(--border-soft);
 }
 
 .content-opcoes ul {
@@ -35,6 +44,12 @@ body {
 .content-opcoes ul li a {
     color: var(--text-primary);
     text-decoration: none;
+    font-size: 18px;
+}
+
+.content-opcoes ul li a:hover {
+    color: var(--accent);
+    font-weight: bold;
 }
 
 .content-logos {
@@ -47,25 +62,35 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 50%; */
+    gap: 60px;
 }
 
 .card-home {
-    width: 50%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-top: 20px;
+    gap: 18px;
+    margin-top: 48px;
 }
 
 .card {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     background-color: var(--bg-secondary);
+    min-height: 70px;
+    padding: 22px;
+    align-items: flex-start;
+    border: 1px solid var(--border);
+    border-radius: 16px;
 }
 
 .card-titulo {
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 0px;
+}
+
+.card-descricao {
+    font-size: 16px;
 }
 
 .btn-primary {
@@ -93,4 +118,26 @@ body {
 .header-icon:hover {
   transform: translateY(-3px) scale(1.05);
   filter: brightness(1.2);
+}
+
+.hero-image {
+  width: 560px;
+  max-width: 100%;
+}
+
+.home h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin: 0 0 24px;
+}
+
+.home p {
+    color: var(--text-secondary);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.home h1 span {
+  color: var(--accent);
 }
