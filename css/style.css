@@ -5,9 +5,9 @@
     --text-primary: #ECF1F8;
     --text-secondary: #9FB0C7;
     --text-muted: #6B7C93;
-    --accent: #FF7A00;
-    --accent-strong: #FF6A00;
-    --accent-soft: #FFB067;
+    --accent: #22C55E;        /* verde principal (equilibrado) */
+    --accent-strong: #16A34A; /* hover / ativo */
+    --accent-soft: #4ADE80;   /* detalhes leves */
     --border: #223043;
     --border-soft: #1A2635;
 }
@@ -103,6 +103,10 @@ body {
     font-weight: 600;
 }
 
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+}
+
 .btn-secondary {
     background: none;
     border: 1px solid var(--text-primary);
@@ -122,8 +126,13 @@ body {
 }
 
 .hero-image {
-  width: 560px;
-  max-width: 100%;
+  position: relative;
+}
+
+.hero-image img {
+  width: 420px;
+  z-index: 2;
+  position: relative;
 }
 
 .home h1 {
@@ -227,6 +236,12 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+}
+
+.card-tecnologias .card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  transition: 0.25s;
 }
 
 .card-tecnologias .card img {

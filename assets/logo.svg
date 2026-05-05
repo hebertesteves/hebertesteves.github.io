@@ -1,7 +1,7 @@
 <svg width="320" height="60" viewBox="0 0 320 60" fill="none" xmlns="http://www.w3.org/2000/svg">
   
   <!-- Ícone </> -->
-  <g stroke="#FF7A00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <g stroke="#22C55E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M20 15 L10 30 L20 45" />
     <path d="M40 15 L50 30 L40 45" />
     <path d="M28 12 L32 48" />
@@ -12,7 +12,7 @@
     Hebert
   </text>
 
-  <text x="150" y="28" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#FF7A00">
+  <text x="150" y="28" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#22C55E">
     Esteves
   </text>
 
