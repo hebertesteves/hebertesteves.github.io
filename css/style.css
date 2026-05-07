@@ -138,6 +138,7 @@ body {
 
 .hero-image {
   position: relative;
+  border-radius: 200px;
 }
 
 .hero-image img {
