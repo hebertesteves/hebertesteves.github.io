@@ -1,0 +1,26 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- fundo -->
+  <circle cx="22" cy="22" r="22" fill="#0F1823"/>
+
+  <!-- medalha -->
+  <circle 
+    cx="22" 
+    cy="18" 
+    r="5.5"
+    stroke="#22C55E"
+    stroke-width="2"/>
+
+  <!-- estrela -->
+  <path 
+    d="M22 15.2L22.8 16.8L24.6 17L23.3 18.2L23.6 20L22 19.1L20.4 20L20.7 18.2L19.4 17L21.2 16.8L22 15.2Z"
+    fill="#22C55E"/>
+
+  <!-- fitas -->
+  <path 
+    d="M19.2 23L17.5 28.5L22 26.2L26.5 28.5L24.8 23"
+    stroke="#22C55E"
+    stroke-width="2"
+    stroke-linejoin="round"/>
+
+</svg>
