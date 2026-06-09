@@ -525,7 +525,12 @@ a:hover.paragrafo-footer {
     margin: 2px 0 2px 0;
 }
 
-@media (min-width: 360px) and (max-width: 1024px) {
+.menu-toggle,
+.mobile-menu {
+    display: none;
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
     .section {
         padding: 70px 20px;
     }
@@ -536,6 +541,7 @@ a:hover.paragrafo-footer {
 
     .home {
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .card-home {
@@ -571,14 +577,15 @@ a:hover.paragrafo-footer {
         margin-bottom: 18px;
     }
 
-    .content-menu {
-        padding: 0 20px;
-    }
-
     .content-footer {
         padding: 0 20px;
         flex-direction: column;
         gap: 30px;
+        align-items: center;
+    }
+
+    .content-footer img {
+        margin-top: 30px;
     }
 
     .content-opcoes {
@@ -591,6 +598,82 @@ a:hover.paragrafo-footer {
 
     .botoes-project {
         flex-direction: column;
+    }
+
+    .content-menu {
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .content-menu > img {
+        width: 150px;
+    }
+
+    .content-opcoes,
+    .content-logos {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .menu-toggle img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 76px;
+        right: 20px;
+        width: 280px;
+        padding: 24px;
+        background: rgba(14, 20, 28, 0.98);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+        z-index: 99;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .mobile-menu a {
+        color: var(--text-primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .mobile-menu a:hover {
+        color: var(--accent);
+    }
+
+    .mobile-social {
+        display: flex;
+        gap: 12px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border-soft);
+    }
+
+    .mobile-social img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .mobile-menu .btn-primary {
+        width: 100%;
+        margin-bottom: 0;
     }
 
 }
