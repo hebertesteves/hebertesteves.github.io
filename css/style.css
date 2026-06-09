@@ -12,6 +12,10 @@
     --border-soft: #1A2635;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -122,6 +126,7 @@ body {
     border-radius: 10px;
     padding: 12px 20px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -135,6 +140,7 @@ body {
     border-radius: 10px;
     padding: 12px 20px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .btn-secondary:hover {
