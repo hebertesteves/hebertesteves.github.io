@@ -85,6 +85,11 @@ body {
     gap: 60px;
 }
 
+.home-botoes {
+    display: flex;
+    gap: 18px;
+}
+
 .card-home {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -583,8 +588,9 @@ a:hover.paragrafo-footer {
         font-size: 32px;
     }
 
-    .btn-primary {
+    .btn-primary, .btn-secondary {
         margin-bottom: 18px;
+        font-size: 12px;
     }
 
     .content-footer {
@@ -731,7 +737,7 @@ a:hover.paragrafo-footer {
         font-size: 36px;
     }
 
-    .btn-primary {
+    .btn-primary, .btn-secondary {
         margin-bottom: 18px;
     }
 
